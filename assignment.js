@@ -1,22 +1,26 @@
+// https://github.com/mahadi570/javascript-basic
+
+
+
 // 1. kilometerToMeter function
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     return meter;
 }
-var ajkehatlam = kilometerToMeter(5);
-console.log("meter:",ajkehatlam);
-var ajkehatlam = kilometerToMeter(14);
-console.log(ajkehatlam);
+
+
 
 // 2. budgetCalculator function 
-function budgetCalculor(watch, phone, laptop){
+function budgetCalculor(watch, phone, laptop) {
     watch = watch * 50;
     phone = phone * 100;
     laptop = laptop * 500;
-    
+
     var totalBudget = watch + phone + laptop;
     return totalBudget;
 }
+
+
 
 // 3. hotelCost funcion
 function hotelCost(days) {
@@ -37,6 +41,8 @@ function hotelCost(days) {
     }
     return totalCost;
 }
+
+
 
 // 4. megaFriend function
 function megaFriend(name) {
